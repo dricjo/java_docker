@@ -6,4 +6,4 @@
 docker build . -t tiny_test
 
 ## Result
-Docker file of 2.45mb
+Docker file of 2.44mb
