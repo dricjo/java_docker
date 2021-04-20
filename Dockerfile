@@ -1,4 +1,3 @@
-#FROM springci/graalvm-ce:dev-java11-0.9.x AS build
 FROM ghcr.io/graalvm/graalvm-ce:latest AS build
 RUN gu install native-image
 COPY app.jar /build/
